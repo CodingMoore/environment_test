@@ -3,5 +3,5 @@ export function Saysomething() {
 }
 
 export function DatFunction() {
-  this.nothingToSeeHere = "Hurray!"
+  this.nothingToSeeHere = "Hurray!";
 }

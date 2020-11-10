@@ -10,7 +10,7 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   devServer: {
-    contentBAse: './dist'
+    contentBase: './dist'
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -28,6 +28,11 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
       }
     ]
   }

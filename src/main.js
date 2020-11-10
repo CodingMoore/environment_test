@@ -1,5 +1,10 @@
-//for UI Logic
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+
+
+
 import { Saysomething } from "./cards.js";
 import { DatFunction } from "./cards.js";
 
